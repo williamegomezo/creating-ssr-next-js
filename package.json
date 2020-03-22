@@ -1,0 +1,26 @@
+{
+  "name": "creating-ssr-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamegomezo/creating-ssr-next-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamegomezo/creating-ssr-next-js/issues"
+  },
+  "homepage": "https://github.com/williamegomezo/creating-ssr-next-js#readme",
+  "dependencies": {
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
