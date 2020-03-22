@@ -1,4 +1,4 @@
-import Cta from 'components/cta';
+import Cta from "components/cta";
 
 function Hello() {
   return <Cta />;
