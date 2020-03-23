@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/williamegomezo/creating-ssr-next-js#readme",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.3.1",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
