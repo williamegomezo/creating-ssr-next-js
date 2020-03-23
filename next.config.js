@@ -5,6 +5,11 @@ const withPlugins = require("next-compose-plugins");
 const nextConfig = {
   webpack: config => {
     config.resolve.modules.push(path.resolve("./"));
+    config.module.rules.push({
+      test: /\.svg$/,
+      exclude: /node_modules/,
+      loader: "svg-react-loader"
+    });
     return config;
   }
 };
